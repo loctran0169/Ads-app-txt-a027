@@ -1,0 +1,8 @@
+# Redirect app-ads.txt to serverless function
+/app-ads.txt /.netlify/functions/app-ads 200
+
+# Redirect health check to serverless function
+/health /.netlify/functions/health 200
+
+# Redirect all other requests to index function
+/* /.netlify/functions/index 200

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App-ads.txt Hosting Service</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .endpoint {
+            background: #f5f5f5;
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            border-left: 4px solid #00ad9f;
+        }
+        .endpoint h3 {
+            margin: 0 0 0.5rem 0;
+            color: #00ad9f;
+        }
+        .endpoint code {
+            background: #e8e8e8;
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-family: 'Monaco', 'Menlo', monospace;
+        }
+        .status {
+            color: #28a745;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>App-ads.txt Hosting Service</h1>
+        <p class="status">✅ Service is running</p>
+    </div>
+
+    <h2>Available Endpoints</h2>
+    
+    <div class="endpoint">
+        <h3>App-ads.txt File</h3>
+        <p><strong>URL:</strong> <code>/app-ads.txt</code></p>
+        <p>Serves your app-ads.txt file with proper headers and caching.</p>
+        <p><a href="/app-ads.txt" target="_blank">View app-ads.txt →</a></p>
+    </div>
+
+    <div class="endpoint">
+        <h3>Health Check</h3>
+        <p><strong>URL:</strong> <code>/health</code></p>
+        <p>Returns service status and timestamp.</p>
+        <p><a href="/health" target="_blank">Check health →</a></p>
+    </div>
+
+    <h2>About</h2>
+    <p>This service hosts your app-ads.txt file using Netlify's serverless functions. The app-ads.txt file is served with appropriate headers for advertising networks and includes caching for optimal performance.</p>
+
+    <h2>Technical Details</h2>
+    <ul>
+        <li><strong>Platform:</strong> Netlify</li>
+        <li><strong>Runtime:</strong> Node.js 18</li>
+        <li><strong>Architecture:</strong> Serverless Functions</li>
+        <li><strong>Caching:</strong> 1 hour (3600 seconds)</li>
+        <li><strong>CORS:</strong> Enabled</li>
+    </ul>
+</body>
+</html>

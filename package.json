@@ -1,0 +1,26 @@
+{
+  "name": "app-ads-txt-host",
+  "version": "1.0.0",
+  "description": "Node.js app to serve app-ads.txt file via Netlify",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo 'No build step required'",
+    "deploy": "netlify deploy --prod"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "netlify-cli": "^17.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": ["netlify", "hosting", "app-ads.txt", "serverless"],
+  "author": "",
+  "license": "MIT"
+} 
