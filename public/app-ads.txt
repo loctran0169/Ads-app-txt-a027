@@ -14,6 +14,7 @@ facebook.com, 328472743660489, DIRECT, c3e20eee3f780d68
 facebook.com, 2216327748740702, DIRECT, c3e20eee3f780d68
 facebook.com, 1001799311691616, DIRECT, c3e20eee3f780d68
 facebook.com, 161433547013115, DIRECT, c3e20eee3f780d68
+facebook.com, 27599716126295485, DIRECT, c3e20eee3f780d68
 
 #mintegral
 mintegral.com, 41738, DIRECT, 0aeed750c80d6423
